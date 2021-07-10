@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+}
+
+/* colors */
+:root {
+  --color-male: rgb(0, 174, 255);
+  --color-female: pink;
+}
+
+/* utils */
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.my-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid teal;
+}
+
+img.male {
+  border: 5px solid var(--color-male);
+}
+
+img.female {
+  border: 5px solid var(--color-female);
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: whitesmoke;
+  background: transparent;
+}
+
+p.gender {
+  text-transform: capitalize;
+}
+
+button.male {
+  background: var(--color-male);  
+}
+
+button.female {
+  background: var(--color-female);
+  color: black;
+}
