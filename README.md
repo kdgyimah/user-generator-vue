@@ -1,2 +1,5 @@
 # user-generator-vue
-User Generator (With Vue)
+Vue User Generator
+
+
+[Live Preview](https://kdgyimah-vue-usergenerator.surge.sh)
